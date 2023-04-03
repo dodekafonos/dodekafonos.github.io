@@ -1,53 +1,105 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Jonas' Corner</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
-
+  <head>
+    <meta charset="utf-8" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cantinho do Jonas</title>
+    <link rel="stylesheet" href="https://notthebe.ee/style.css?h=be5f04452a440b215f24" />
+    <link rel="shortcut icon" type="image/png" href="./imgs/profile.jpeg"/>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="buttons.css">
-</head>
+    <!-- <script
+      src="https://kit.fontawesome.com/93866eaaa9.js"
+      crossorigin="anonymous"
+    ></script> -->
+  </head>
 
-<body>
+    <nav class="menu">
+      <div class="nav-left">
+        <ul>
+          <li>
+            <a href="/"><img class="logo" src="./imgs/profile.jpeg" alt="" />
+                <span class="sitename">Cantinho do Jonas</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <ul>
+        <li class="icons">
+            <a
+              id="darkmodetoggle"
+              class="fas fa-moon"
+              onclick="switchTheme()"
+            ></a>
+        <a id="toggle-nav" onclick="toggleNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+          </li>
+        </ul>
+        <ul id="links">
+          <li><a target="_blank" href="https://www.linkedin.com/in/jonas-alves">linkedin</a></li>
+          <li><a target="_blank" href="https://github.com/dodekafonos">github</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="container d-flex align-items-center h-100">
+  <body>
+    <section class="section">
+      <div class="container">
+<h2> Hello, World. 🐧🚩</h2>
+ 
+<p>
+    🪲 I'm a 26 years old coffee-powered bug crafter, currently studying System Analysis and Development at 
+    <a href="http://fatecsjc-prd.azurewebsites.net/">Fatec</a>.
+<br>
+    🔭 I’m currently working on a desktop aplication for my undergratuate course using Java Swing.
+<br>
+    🌱 I’m currently learning about Java, algorithms and MySQL.
+    </p>
 
-        <div class="row">
+<h3>
+    Tools I've worked with:
+</h3>
 
-            <header class="text-center col-12">
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python"/>
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original-wordmark.svg" title="Flask"/>
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title = "JavaScript"/>
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" title = "HTML5"/>
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" title = "CSS3"/>
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title = "React"/>
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title = "Figma"/>
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" title="Bash"/>
+<img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="MySQL"/>
+</div>
 
-                <h1><strong>EM CONSTRUÇÃO. NOVIDADES EM BREVE.</strong></h1>
+<hr>
+<!-- 
+<h2>Projetos</h2> -->
 
-            </header>
+  <h2>Articles</h2>
+  <ul class="articles">
+  
+  <li>
+    <a href="./oop.html" target="_blank">Orientação a Objetos para Alienígenas</a> <span>[pt-br]</span>
+    <p class="date">02/04/2023</p>
+  </li>
 
-            <div class="buffer col-12">
+  <hr>
+  <h3>
+    Get in touch!
+</h3>
+<div> 
+  <a href = "mailto:j.bueno@unifesp.br"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/jonas-alves" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</div>
 
-            </div>
+  <p>Meu nome é Jonas, mas não sei que baleia é essa que você tá pensando.</p>
 
-            <section class="text-center col-12">
+</div>
+    </section>
 
-                <hr>
-                <a href="http://www.linkedin.com/in/jonas-alves" target="_blank">
-                    <button class="btn btn-primary btn-main">
-                        Contato
-                    </button>
-                </a>
-                <a href="./oop.html">
-                    <button class="btn btn-primary btn-main">
-                        Artigos
-                    </button>
-                </a>
+  </body>
 
-            </section>
-            
-        </div>
-
-    </div>
-</body>
-
-</html> 
+</html>
